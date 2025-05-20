@@ -1,0 +1,55 @@
+basic:
+    name: 'https://onthemendpt.com/'
+    environments:
+        production: 'https://onthemendpt.com/'
+        staging: 'https://g2jxnyku4g.wpdns.site/'
+        development: ''
+    breakpoints:
+        - 640
+        - 1024
+        - 1200
+    pages:
+        - /
+        - /pay-my-bill
+        - /about
+        - /our-services/sports-medicine
+        - /our-services/auto-accident
+        - /services
+        - /our-services/spine-rehabilitation
+        - /our-services/orthopedic-rehabilitation
+        - /our-services/balance-training
+        - /our-services/geriatric-physical-therapy
+        - /our-services/wrist-hand-therapy
+        - /our-services/work-conditioning-injury-rehabilitation
+        - /our-services/pediatric-therapy
+        - /new-patients
+        - /frequently-asked-questions
+        - /blog
+        - /contact
+        - /terms-of-service
+        - /privacy-policy
+    monitoring:
+        days: {  }
+        type: ''
+        schedule_time: '12:30 AM'
+        schedule_time_zone: Europe/London
+        compare_with: last-production
+        compare_with_fresh: production
+advanced:
+    mask: ''
+    remove: ''
+    isolate: ''
+    delay: 15
+    scroll: true
+    headers:
+        - { header: '', value: '' }
+    cookies: ''
+    custom_js: ''
+    custom_css: ''
+    mock_content: ''
+    performance:
+        workers_production: 30
+        workers_nonproduction: 10
+        workers_production_delay: 0
+        workers_nonproduction_delay: 0
+    stabilize: true
